@@ -9,6 +9,7 @@ app.use(express.json());
 app.use(cors());
 
 app.get("/", (req, res) => {
+  //send as plain text
   res.send("success");
 });
 
